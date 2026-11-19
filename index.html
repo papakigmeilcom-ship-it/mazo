@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="MAZO — Η δική σου κινηματογραφική γωνιά.">
+  <title>MAZO — The Cinema Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="MAZO αρχική σελίδα">MAZO<span>.</span></a>
+    <span class="top-label">THE CINEMA EXPERIENCE</span>
+    <a class="top-link" href="#watch">WATCH NOW <span>↘</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="eyebrow-line"></span> YOUR PRIVATE SCREENING ROOM</div>
+      <h1>Every frame.<br><em>A whole world.</em></h1>
+      <p class="intro">Καλώς ήρθες στο MAZO. Πάρε θέση, χαμήλωσε τα φώτα και απόλαυσε την προβολή.</p>
+      <a class="gold-button" href="#watch">ΑΝΑΚΑΛΥΨΕ ΤΗΝ ΠΡΟΒΟΛΗ <span>↓</span></a>
+      <div class="hero-meta"><span>01 / FEATURED VIDEO</span><span>MADE FOR THE MOMENT</span></div>
+    </section>
+
+    <section class="screening" id="watch">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> NOW SHOWING</div><h2>Η προβολή σου<span>.</span></h2></div>
+        <span class="duration">YOUR SCREEN · YOUR TIME</span>
+      </div>
+      <div class="player-shell">
+        <video id="mazoVideo" controls playsinline preload="metadata" poster="poster.svg">
+          <source src="video.mp4" type="video/mp4">
+          Το πρόγραμμα περιήγησής σου δεν υποστηρίζει αναπαραγωγή βίντεο.
+        </video>
+        <div class="player-hint" id="playerHint"><span class="play-symbol">▶</span><span>Η προβολή ξεκινά με το δικό σου Play</span></div>
+      </div>
+      <p class="video-note">Η αναπαραγωγή δεν ξεκινά αυτόματα. Εσύ επιλέγεις πότε αρχίζει η προβολή.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#">MAZO<span>.</span></a>
+    <span>ΜΙΑ ΜΙΚΡΗ ΑΠΟΔΡΑΣΗ ΑΠΟ ΤΟ ΣΥΝΗΘΙΣΜΕΝΟ.</span>
+    <span class="copyright">© <span id="year"></span> MAZO</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

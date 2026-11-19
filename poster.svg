@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><radialGradient id="g"><stop stop-color="#4d3921"/><stop offset="1" stop-color="#080808"/></radialGradient></defs>
+<rect width="1600" height="900" fill="url(#g)"/>
+<path d="M0 690 Q400 500 800 690 T1600 690 V900 H0Z" fill="#0b0a08" opacity=".75"/>
+<text x="800" y="420" text-anchor="middle" fill="#f5eee1" font-family="Georgia,serif" font-size="112" letter-spacing="16">MAZO</text>
+<text x="800" y="490" text-anchor="middle" fill="#d8b878" font-family="Arial,sans-serif" font-size="22" letter-spacing="8">THE CINEMA EXPERIENCE</text>
+</svg>
